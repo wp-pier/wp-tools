@@ -1,0 +1,3 @@
+# Run website maintenance tasks
+# min   hour    day     month   weekday command
+*/1     *       *       *       *       wp core is-installed && wp eval-file /var/www/html/cron.php
